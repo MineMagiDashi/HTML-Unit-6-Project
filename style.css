@@ -1,0 +1,33 @@
+.baseImage {
+  width: 300px;
+  height: 300px;
+}
+
+.border {
+  border-image-slice:1133 866 900 933;
+  border-image-width:20px 20px 20px 20px;
+  border-image-outset:0px 0px 0px 0px;
+  border-image-repeat:stretch stretch;
+  border-image-source: url("border.png");border-style:solid;
+}
+
+#wrapper {
+  margin: auto;
+  width: 60%;
+  margin-top: 30px;
+}
+
+main {
+  background-color: beige;
+  color: darkblue;
+}
+
+body{
+  background-image: url("coolbg.gif");
+  background-size: cover;
+}
+
+
+ul.a{
+  list-style-image: url(catge.png);
+}
